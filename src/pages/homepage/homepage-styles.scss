@@ -1,0 +1,41 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 80px;
+  left: 0%;
+  right: 0%;
+}
+
+.addoptordonateoptions {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.addoptadog {
+  padding-right: 50px;
+}
+
+.aboutushomepageimage {
+  // position: absolute;
+  // left: 5%;
+  padding-top: 2%;
+}
+
+.smallhomepageaboutusdescription {
+  padding-top: 2%;
+  padding-left: 70px;
+  text-align: center;
+  font-size: larger;
+}
+
+.aboutushomepagecontent {
+  display: flex;
+}
+
+.fullorgphoto {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
