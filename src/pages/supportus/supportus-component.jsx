@@ -36,11 +36,11 @@ const SupportUs = () => (
       {""}
       <NavLink className="supportus-volunteer-button" to="/donate">
         {" "}
-        <button>Volunteer</button>{" "}
+        <button className="supportus-volunteer-btn">Volunteer</button>{" "}
       </NavLink>
       <NavLink className="supportus-donate-button" to="/donate">
         {" "}
-        <button>Donate Now</button>{" "}
+        <button className="supportus-donate-btn">Donate Now</button>{" "}
       </NavLink>
     </div>
     <img src={img1} alt="" />
