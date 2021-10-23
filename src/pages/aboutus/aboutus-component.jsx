@@ -10,7 +10,7 @@ const AboutUs = () => (
       </h1>{" "}
     </div>
     <div className="aboutus-banner">
-      <img src="./Banner-1-1000x436.jpg" alt="" />
+      <img src="./333.jpg" alt="" />
     </div>
   </div>
 );

@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 80px;
+  padding: 0px 0px;
   left: 0%;
   right: 0%;
 }
 
 .addoptordonateoptions {
-  padding-top: 5%;
+  padding: 5%;
+
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -21,12 +22,13 @@
 .aboutushomepageimage {
   // position: absolute;
   // left: 5%;
-  padding-top: 2%;
+  padding: 2%;
 }
 
 .smallhomepageaboutusdescription {
   padding-top: 2%;
   padding-left: 70px;
+  padding-right: 70px;
   text-align: center;
   font-size: larger;
 }
@@ -38,4 +40,12 @@
 .fullorgphoto {
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.banner {
+  width: 100%;
+  img {
+    width: 100%;
+    height: 80%;
+  }
 }

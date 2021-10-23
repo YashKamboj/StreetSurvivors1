@@ -5,7 +5,7 @@ import img1 from "../../assets/ngos.jpg";
 
 const SupportUs = () => (
   <div className="supportus">
-    <img src="./Banner-1-1000x436.jpg" alt="" />
+    <img src="./5e7d98b44c198a2ea729c92a_1585289396396.jpg" alt="" />
     <div className="supportus-heading">
       <u>
         <h1>Support Us</h1>

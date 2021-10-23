@@ -9,9 +9,9 @@ import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 
 const HomePage = () => (
   <div className="homepage">
-    <div>
-      <img src="./Screenshot (26).png" alt="" />
-      <div className="slider">
+    <div className="banner">
+      <img src="./2-1.jpg" alt="" />
+      {/* <div className="slider">
         <AwesomeSlider
           animation="cubeAnimation"
           className="slider"
@@ -27,7 +27,7 @@ const HomePage = () => (
             },
           ]}
         />
-      </div>
+      </div> */}
     </div>
     <div className="addoptordonateoptions">
       <div className="addoptadog">

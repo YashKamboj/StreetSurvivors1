@@ -11,6 +11,8 @@ class DonateNow extends React.Component {
       password: "",
       firstname: "",
       lastname: "",
+      amount: "",
+      address: "",
     };
   }
 
@@ -54,6 +56,20 @@ class DonateNow extends React.Component {
               name="password"
               value={this.state.password}
               label="Password"
+              handleChange={this.handleChange}
+              required
+            />
+            <FormInput
+              name="amount"
+              value={this.state.amount}
+              label="Amount"
+              handleChange={this.handleChange}
+              required
+            />
+            <FormInput
+              name="address"
+              value={this.state.address}
+              label="Address"
               handleChange={this.handleChange}
               required
             />
