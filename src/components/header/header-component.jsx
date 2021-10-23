@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header-styles.scss";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [header, setHeader] = useState(false);

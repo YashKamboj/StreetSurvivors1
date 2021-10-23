@@ -1,17 +1,34 @@
 import React from "react";
 import "./homepage-styles.scss";
-import ImageSlider from "../../components/homepageslider/silder-component";
+
 import { FaApple } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 
 const HomePage = () => (
   <div className="homepage">
-    {/* <div className="imagesliderhome">
-      <ImageSlider slides={SliderData} />
-    </div> */}
-
-    <ImageSlider />
-
+    <div>
+      <img src="./Screenshot (26).png" alt="" />
+      <div className="slider">
+        <AwesomeSlider
+          animation="cubeAnimation"
+          className="slider"
+          media={[
+            {
+              source: "./Screenshot (26).png",
+            },
+            {
+              source: "./Screenshot (37).png",
+            },
+            {
+              source: "./Screenshot (26).png",
+            },
+          ]}
+        />
+      </div>
+    </div>
     <div className="addoptordonateoptions">
       <div className="addoptadog">
         <Link to="/supportus">
@@ -59,7 +76,10 @@ const HomePage = () => (
       </div>
       <div className="aboutushomepagecontent">
         <div className="aboutushomepageimage">
-          <img src="./Screenshot (26).png" alt="" />
+          <Link to="/aboutus">
+            {" "}
+            <img src="./Screenshot (26).png" alt="" />{" "}
+          </Link>
         </div>
         <div className="smallhomepageaboutusdescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati est
